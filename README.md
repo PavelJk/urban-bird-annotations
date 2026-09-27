@@ -1,1 +1,15 @@
-# urban-bird-annotations
+# Проект аннотации городских птиц
+
+## Аннотационная схема
+Схема описана в `annotation_schema.md`.
+
+## Модальности и форматы
+- Текст — CoNLL-U, папка `data/text/`
+- Изображения — CVAT JSON/XML, папка `data/images/`
+- Аудио — TextGrid, папка `data/audio/`
+
+## Правила аннотирования
+См. `docs/annotation_guidelines.md`.
+
+## Верификация
+Перекрёстная проверка, kappa ≥ 0.8, IoU ≥ 0.75, проверка каждого 5-го файла.
