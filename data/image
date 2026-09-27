@@ -1,0 +1,16 @@
+{
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 123,
+      "label": "домовый воробей",
+      "bbox": [120, 80, 200, 160],
+      "segmentation": [[120,80,320,80,320,240,120,240]],
+      "attributes": {
+        "pose": "сидит",
+        "occlusion": "нет",
+        "confidence": 0.95
+      }
+    }
+  ]
+}
