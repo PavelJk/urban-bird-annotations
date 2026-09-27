@@ -8,8 +8,5 @@
 - Изображения — CVAT JSON/XML, папка `data/images/`
 - Аудио — TextGrid, папка `data/audio/`
 
-## Правила аннотирования
-См. `docs/annotation_guidelines.md`.
-
 ## Верификация
 Перекрёстная проверка, kappa ≥ 0.8, IoU ≥ 0.75, проверка каждого 5-го файла.
