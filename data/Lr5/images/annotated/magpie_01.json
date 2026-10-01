@@ -1,0 +1,42 @@
+{
+  "image_id": 4,
+  "file_name": "magpie_01.jpg",
+  "width": 1024,
+  "height": 768,
+  "annotations": [
+    {
+      "id": 1,
+      "label": "MAGPIE",
+      "type": "bbox",
+      "bbox": [250, 150, 500, 400],
+      "attributes": {
+        "pose": "сидит",
+        "occlusion": "нет",
+        "plumage_color": "чёрно-белое",
+        "age_sex": "неизвестно",
+        "confidence": 0.96
+      }
+    },
+    {
+      "id": 2,
+      "label": "TAIL",
+      "type": "bbox",
+      "bbox": [600, 300, 200, 60],
+      "parent_id": 1,
+      "attributes": {
+        "confidence": 0.93
+      }
+    },
+    {
+      "id": 3,
+      "label": "PLUMAGE",
+      "type": "polygon",
+      "segmentation": [[260,180, 500,180, 520,300, 480,500, 300,500, 250,300]],
+      "parent_id": 1,
+      "attributes": {
+        "plumage_color": "чёрно-белое",
+        "confidence": 0.9
+      }
+    }
+  ]
+}

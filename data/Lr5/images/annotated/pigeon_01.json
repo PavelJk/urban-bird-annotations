@@ -1,0 +1,48 @@
+{
+  "image_id": 2,
+  "file_name": "pigeon_01.jpg",
+  "width": 1024,
+  "height": 768,
+  "annotations": [
+    {
+      "id": 1,
+      "label": "PIGEON",
+      "type": "bbox",
+      "bbox": [300, 200, 400, 350],
+      "attributes": {
+        "pose": "стоит",
+        "occlusion": "нет",
+        "plumage_color": "серо-сизое",
+        "age_sex": "неизвестно",
+        "confidence": 0.97
+      }
+    },
+    {
+      "id": 2,
+      "label": "PIGEON",
+      "type": "polygon",
+      "segmentation": [[300,200, 480,200, 700,400, 620,550, 340,550, 300,400]],
+      "attributes": {
+        "pose": "стоит",
+        "occlusion": "нет",
+        "confidence": 0.95
+      }
+    },
+    {
+      "id": 3,
+      "label": "BEAK",
+      "type": "bbox",
+      "bbox": [290, 240, 40, 25],
+      "parent_id": 1,
+      "attributes": { "confidence": 0.9 }
+    },
+    {
+      "id": 4,
+      "label": "LEG",
+      "type": "bbox",
+      "bbox": [400, 500, 30, 50],
+      "parent_id": 1,
+      "attributes": { "confidence": 0.85 }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "image_id": 1,
+  "file_name": "sparrow_01.jpg",
+  "width": 1024,
+  "height": 768,
+  "annotations": [
+    {
+      "id": 1,
+      "label": "SPARROW",
+      "type": "bbox",
+      "bbox": [220, 180, 340, 280],
+      "attributes": {
+        "pose": "сидит",
+        "occlusion": "нет",
+        "plumage_color": "коричнево-серое",
+        "age_sex": "самец",
+        "confidence": 0.95
+      }
+    },
+    {
+      "id": 2,
+      "label": "SPARROW",
+      "type": "polygon",
+      "segmentation": [[220,180, 320,180, 340,240, 330,300, 250,300, 220,260]],
+      "attributes": {
+        "pose": "сидит",
+        "occlusion": "нет",
+        "confidence": 0.92
+      }
+    },
+    {
+      "id": 3,
+      "label": "BEAK",
+      "type": "bbox",
+      "bbox": [300, 210, 30, 20],
+      "parent_id": 1,
+      "attributes": {
+        "confidence": 0.9
+      }
+    },
+    {
+      "id": 4,
+      "label": "TAIL",
+      "type": "bbox",
+      "bbox": [225, 250, 60, 40],
+      "parent_id": 1,
+      "attributes": {
+        "confidence": 0.88
+      }
+    },
+    {
+      "id": 5,
+      "label": "PLUMAGE",
+      "type": "polygon",
+      "segmentation": [[240,200, 310,200, 320,260, 250,260]],
+      "parent_id": 1,
+      "attributes": {
+        "plumage_color": "коричнево-серое",
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "image_id": 3,
+  "file_name": "tit_01.jpg",
+  "width": 1024,
+  "height": 768,
+  "annotations": [
+    {
+      "id": 1,
+      "label": "TIT",
+      "type": "bbox",
+      "bbox": [400, 220, 260, 300],
+      "attributes": {
+        "pose": "сидит",
+        "occlusion": "нет",
+        "plumage_color": "жёлтое",
+        "age_sex": "самец",
+        "confidence": 0.94
+      }
+    },
+    {
+      "id": 2,
+      "label": "PLUMAGE",
+      "type": "polygon",
+      "segmentation": [[420,300, 620,300, 640,420, 420,420]],
+      "parent_id": 1,
+      "attributes": {
+        "plumage_color": "жёлтое",
+        "confidence": 0.92
+      }
+    },
+    {
+      "id": 3,
+      "label": "WING",
+      "type": "bbox",
+      "bbox": [420, 260, 80, 60],
+      "parent_id": 1,
+      "attributes": { "confidence": 0.88 }
+    }
+  ]
+}
